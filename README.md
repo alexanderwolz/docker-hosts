@@ -1,2 +1,2 @@
-# docker_hosts
+# Docker Hosts
 Maps Docker IP's into host config
