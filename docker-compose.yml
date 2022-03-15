@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  hosts:
+    container_name: hosts
+    build: ./build
+    restart: unless-stopped
+    volumes: 
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc:/etc_host:rw
