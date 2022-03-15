@@ -6,4 +6,4 @@ WORKDIR /root
 
 COPY ["common.sh", "hosts.sh", "./"]
 
-CMD bash run.sh
+CMD bash hosts.sh
